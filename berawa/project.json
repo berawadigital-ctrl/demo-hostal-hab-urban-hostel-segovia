@@ -1,0 +1,64 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hostal-hab-urban-hostel-segovia",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-11-02T11:15:00+01:00",
+ "updated_at": "2026-11-02T11:35:00+01:00",
+ "business": {
+  "name": "Häb Urban Hostel",
+  "legal_name": "Miguel Marazuela Bella, NIF 70266522G (política de privacidad y condiciones de su web; persona física)",
+  "registry_ids": [
+   "70266522G"
+  ],
+  "url": "https://www.habhostel.com/",
+  "domain": "habhostel.com",
+  "municipality": "Segovia",
+  "province": "Segovia",
+  "address": "Calle Cervantes, 16 · 40001 Segovia",
+  "phones": [
+   "+34 921 46 10 26",
+   "+34 630 88 66 61"
+  ],
+  "emails": [
+   "info@habhostel.com"
+  ],
+  "sector": "hostel urbano en el centro histórico de Segovia"
+ },
+ "rating": {
+  "value": 4.5,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por web)",
+  "url": "https://www.google.com/maps/search/Hab+Urban+Hostel+Segovia",
+  "date": "2026-10-29",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "url": "mailto:info@habhostel.com",
+  "note": "sin motor de reservas: su web da «RESERVAS DIRECTAS» por teléfono (921 46 10 26, 616 42 03 60) y correo info@habhostel.com. Los botones Reservar de la demo abren un correo a info@habhostel.com y los teléfonos reales van en tel: (mismo criterio que San Martín, Andrín y Hey)."
+ },
+ "audit_original": {
+  "url": "https://www.habhostel.com/",
+  "date": "2026-11-02T11:15:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
