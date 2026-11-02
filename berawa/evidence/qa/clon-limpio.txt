@@ -1,0 +1,12 @@
+HEAD e99aab1572ad7364ba85be7851cf3f95651eb344
+OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
+OK    tests_hostal_hab_urban_hostel_segovia: 4 idiomas + chatbot contra la base (HTTP)
+OK    a11y_test: axe-core + teclado (HTTP)
+OK    contrast_manual: contraste de nodos «incompletos» de axe
+OK    keys_test: claves del chat sin ambiguedad
+OK    sec_scan: revision estatica + CSP efectiva
+OK    tests_hostal_hab_urban_hostel_segovia por file://
+OK    a11y_test por file://
+
+8/8 comprobaciones OK · resultados en /tmp/clon-hostal-hab-urban-hostel-segovia/out
+run_checks exit 0

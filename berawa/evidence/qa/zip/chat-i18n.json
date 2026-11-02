@@ -1,0 +1,419 @@
+{
+ "url": "http://127.0.0.1:33427/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Ofrecen habitaciones dobles (con terraza, superior o doble) para 2 personas y familiares abuhardilladas en dos plantas para 4 personas."
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Todas tienen WC individual completamente equipado, TV LED de pantalla plana, aire acondicionado frío-calor, wifi gratuito y suelos de madera"
+    },
+    {
+     "q": "¿Tenéis ascensor?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "No: el edificio no dispone de ascensor."
+    },
+    {
+     "q": "¿Hay habitaciones con terraza?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Todas las habitaciones son exteriores con balcón, y dos tienen acceso a una terraza privada."
+    },
+    {
+     "q": "¿Tenéis camas supletorias?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí: la doble superior admite cama supletoria (hasta 3 personas) y la familiar también (hasta 5)."
+    },
+    {
+     "q": "¿Dónde aparco?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No tienen parking propio; recomiendan el IC Acueducto Oriental (Avenida Padre Claret, 6), cubierto y vigilado, o el PARKIA Acueducto Occiden"
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "En la Calle Cervantes, 16, 40001 Segovia, la calle que une la Plaza Mayor y el Acueducto, a pocos metros de los principales monumentos."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Reservas directas por teléfono (921 46 10 26 o 616 42 03 60) o por correo a info@habhostel.com. Este asistente no puede confirmar disponibil"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Reservas directas por teléfono (921 46 10 26 o 616 42 03 60) o por correo a info@habhostel.com. Este asistente no puede confirmar disponibil"
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, wifi gratuito en las habitaciones."
+    },
+    {
+     "q": "¿Son silenciosas las habitaciones?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: todas las habitaciones están insonorizadas."
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: 921 46 10 26. Móvil: 630 88 66 61. Correo: info@habhostel.com. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Está cerca del Acueducto?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sí: está a 100 m del Acueducto, en un edificio rehabilitado del centro."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Dónde aparco?",
+    "¿Tenéis ascensor?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "They offer double rooms (with terrace, superior or standard) for 2 people and two-floor attic family rooms for 4."
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "All have a fully equipped private WC, flat-screen LED TV, hot-cold air conditioning, free wifi and wooden floors with beamed ceilings."
+    },
+    {
+     "q": "Is there a lift?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "No: the building has no lift."
+    },
+    {
+     "q": "Are there rooms with a terrace?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "All rooms face outwards with a balcony, and two have access to a private terrace."
+    },
+    {
+     "q": "Do you have extra beds?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Yes: the superior double takes an extra bed (up to 3 people) and so does the family room (up to 5)."
+    },
+    {
+     "q": "Where can I park?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No own parking; they recommend IC Acueducto Oriental (Avenida Padre Claret, 6), covered and supervised, or PARKIA Acueducto Occidental (Call"
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "At Calle Cervantes, 16, 40001 Segovia, the street linking the Plaza Mayor and the Aqueduct, a few metres from the main monuments."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Direct bookings by phone (921 46 10 26 or 616 42 03 60) or by email to info@habhostel.com. This assistant cannot confirm availability. Ask o"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Direct bookings by phone (921 46 10 26 or 616 42 03 60) or by email to info@habhostel.com. This assistant cannot confirm availability. Ask o"
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes, free wifi in the rooms."
+    },
+    {
+     "q": "Are the rooms quiet?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes: all rooms are soundproofed."
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: 921 46 10 26. Mobile: 630 88 66 61. Email: info@habhostel.com. Ask on WhatsApp →"
+    },
+    {
+     "q": "Is it close to the Aqueduct?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Yes: it is 100 m from the Aqueduct, in a restored building in the centre."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Where can I park?",
+    "Is there a lift?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Ils proposent des chambres doubles (avec terrasse, supérieure ou standard) pour 2 personnes et des chambres familiales mansardées sur deux n"
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Toutes ont WC privé entièrement équipé, TV LED écran plat, climatisation chaud-froid, wifi gratuit et parquet avec poutres apparentes."
+    },
+    {
+     "q": "Y a-t-il un ascenseur ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Non : l’immeuble n’a pas d’ascenseur."
+    },
+    {
+     "q": "Y a-t-il des chambres avec terrasse ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Toutes les chambres donnent sur l’extérieur avec balcon, et deux ont accès à une terrasse privée."
+    },
+    {
+     "q": "Avez-vous des lits supplémentaires ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Oui : la double supérieure accepte un lit d’appoint (jusqu’à 3 personnes), la familiale aussi (jusqu’à 5)."
+    },
+    {
+     "q": "Où se garer ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Pas de parking propre ; ils recommandent IC Acueducto Oriental (Avenida Padre Claret, 6), couvert et surveillé, ou PARKIA Acueducto Occident"
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Calle Cervantes, 16, 40001 Ségovie, la rue qui relie la Plaza Mayor et l’aqueduc, à quelques mètres des principaux monuments."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Réservations directes par téléphone (921 46 10 26 ou 616 42 03 60) ou par e-mail à info@habhostel.com. Cet assistant ne peut pas confirmer l"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Réservations directes par téléphone (921 46 10 26 ou 616 42 03 60) ou par e-mail à info@habhostel.com. Cet assistant ne peut pas confirmer l"
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui, wifi gratuit dans les chambres."
+    },
+    {
+     "q": "Les chambres sont-elles calmes ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui : toutes les chambres sont insonorisées."
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : 921 46 10 26. Portable : 630 88 66 61. E-mail : info@habhostel.com. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Est-ce près de l’aqueduc ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Oui : à 100 m de l’aqueduc, dans un immeuble réhabilité du centre."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Où se garer ?",
+    "Y a-t-il un ascenseur ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt Doppelzimmer (mit Terrasse, Superior oder Standard) für 2 Personen und zweistöckige Familienzimmer im Dachgeschoss für 4 Personen."
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Alle haben ein voll ausgestattetes eigenes WC, LED-Flachbild-TV, Klimaanlage (warm/kalt), kostenloses WLAN und Holzböden mit Balkendecken."
+    },
+    {
+     "q": "Gibt es einen Aufzug?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Nein: Das Gebäude hat keinen Aufzug."
+    },
+    {
+     "q": "Gibt es Zimmer mit Terrasse?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Alle Zimmer liegen nach außen mit Balkon, zwei haben Zugang zu einer eigenen Terrasse."
+    },
+    {
+     "q": "Haben Sie Zustellbetten?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ja: Das Superior-Doppelzimmer erlaubt ein Zustellbett (bis 3 Personen), das Familienzimmer ebenfalls (bis 5)."
+    },
+    {
+     "q": "Wo kann ich parken?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Kein eigener Parkplatz; empfohlen werden IC Acueducto Oriental (Avenida Padre Claret, 6), überdacht und bewacht, oder PARKIA Acueducto Occid"
+    },
+    {
+     "q": "Wo liegt das Hostel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Calle Cervantes, 16, 40001 Segovia, die Straße zwischen Plaza Mayor und Aquädukt, wenige Meter von den wichtigsten Denkmälern."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Direktbuchung per Telefon (921 46 10 26 oder 616 42 03 60) oder per E-Mail an info@habhostel.com. Dieser Assistent kann die Verfügbarkeit ni"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Direktbuchung per Telefon (921 46 10 26 oder 616 42 03 60) oder per E-Mail an info@habhostel.com. Dieser Assistent kann die Verfügbarkeit ni"
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ja, kostenloses WLAN in den Zimmern."
+    },
+    {
+     "q": "Sind die Zimmer ruhig?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ja: Alle Zimmer sind schallisoliert."
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: 921 46 10 26. Mobil: 630 88 66 61. E-Mail: info@habhostel.com. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Ist es nahe am Aquädukt?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Ja: 100 m vom Aquädukt, in einem sanierten Gebäude im Zentrum."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 921 46 10 26 · +34 630 88 66 61 · info@habhostel.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Wo kann ich parken?",
+    "Gibt es einen Aufzug?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
