@@ -1,0 +1,46 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.habhostel.com/",
+ "read_at": "2026-11-02T11:15:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.habhostel.com",
+   "sha256": "c80d812c85b60a093280c199ec4ee295e5202e6e55c49c7bf14fb3427f42c269",
+   "chars": 2269
+  },
+  {
+   "url": "https://www.habhostel.com/aparcamiento",
+   "sha256": "e69e7517a99c4a655e1610ebe838578bd7544350d982dc9b63187ec1c2a2ea9c",
+   "chars": 1539
+  },
+  {
+   "url": "https://www.habhostel.com/contacto",
+   "sha256": "07e1af69c4b50195d8c7d99599aa342b91019916e1c379178525a83d03c82601",
+   "chars": 2240
+  },
+  {
+   "url": "https://www.habhostel.com/habitaciones",
+   "sha256": "22271977de60aabed0c2e8e9c63cba6a066deba811742a0e537e3fe41c24ed13",
+   "chars": 2604
+  },
+  {
+   "url": "https://www.habhostel.com/habitaciones/habitacion-101",
+   "sha256": "8468b052e0a23ec54710e3c6d42a8b944c439a5fa812aa01fee31f11979bbb19",
+   "chars": 1615
+  },
+  {
+   "url": "https://www.habhostel.com/habitaciones/habitacion-103",
+   "sha256": "522fddbac7c04d50e268ca328497c03b6eb7c6d0d5290eb6c663de4835f6dc4a",
+   "chars": 1563
+  }
+ ],
+ "other_pages_read": [
+  "https://www.habhostel.com/condiciones",
+  "https://www.habhostel.com/galeria",
+  "https://www.habhostel.com/habitaciones/habitacion-102",
+  "https://www.habhostel.com/habitaciones/habitacion-103-con-cama-supletoria",
+  "https://www.habhostel.com/politica-de-cookies",
+  "https://www.habhostel.com/politica-de-privacidad"
+ ]
+}
